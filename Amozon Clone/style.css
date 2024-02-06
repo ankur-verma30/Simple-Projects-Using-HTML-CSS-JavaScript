@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* designing the css of header */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items:center;
+}
+
+.nav-logo{
+    
+    height: 50px;
+    width: 100px;
+}
+
+.border{
+    border: 1.3px solid transparent;
+}
+
+.border:hover{
+  border: 1.3px solid white;
+
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url(images/amazon_logo.png);
+    background-size: cover;
+}
+
+
+/* styling the box 2 in the navbar */
+.nav-address{
+    margin-top: 10px;
+    padding: 5px;
+}
+.nav-address p{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+
+.add-icon{
+    display: flex;
+    align-items:center;
+}
+
+.add-icon p{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+
+/* box 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 2px ;
+}
+
+.search-select{
+    background-color:#f3f3f3;
+    width: 47px;
+    text-align: center;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: none;
+    
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
